@@ -13,7 +13,7 @@ The system recommends nodes based on the weights of their connections to other n
 
 ## Compilation Instructions
 
-```
+```python
 python3 adjace_list_recommend.py 
 python3 matrix_mult_recommend.py 
 ```
