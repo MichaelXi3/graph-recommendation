@@ -7,6 +7,7 @@ from utils.file_operations import matrix_to_npmatrix, write_recommendations_to_f
 def matrix_recommend(A):
     # get the two paths matrix by A*A
     B = matrix_mult(A, A)
+    print(B)
 
     # get the recommendation dict
     recommendation = parse_matrix_to_get_recommendations(A, B)
